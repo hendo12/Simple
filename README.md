@@ -11,6 +11,9 @@
     
   Features to grow into: 
 
+  - record a split every time a set is added
+  - add in weight lifted for each exercise
+  - calculate "work done" stat based on weight and sets for each exercise and add together
   - signup/login/database
-  - Historical workout data
+  - Historical workout data -> list view by most recent date
   - Workout data graph

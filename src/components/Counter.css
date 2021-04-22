@@ -7,16 +7,17 @@
     width: 100%;
     align-items: center;
     flex-direction: column;
+    margin: 5px 0;
 }
 
 .iterator {
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 
 .iterator .count {
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 15px 0;
 }
 
