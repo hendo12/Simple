@@ -1,0 +1,25 @@
+.counter, .iterator {
+    display: flex;
+}
+
+.counter {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.iterator {
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.iterator h1 {
+}
+
+.iterator button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+}
