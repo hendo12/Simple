@@ -1,3 +1,8 @@
+.timer {
+    height: 80px;
+}
+
 .timer h1 {
     font-size: 5rem;
+    margin: 0;
 }

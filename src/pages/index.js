@@ -11,11 +11,11 @@ const IndexPage = () => {
 
   return (
     <div className="container">
-      <h1>Simple and Sinister Tracker</h1>
+      <h1 className="title">Simple and Sinister Tracker</h1>
       <Timer />
       <Counter exercise="Swings" iterate={setSwings} count={swings} />
       <Counter exercise="Get Ups" iterate={setGetups} count={getups} />
-      <button>Start</button>
+      <button className="start">START</button>
     </div>
   )
 }

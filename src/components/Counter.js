@@ -7,7 +7,7 @@ const Counter = ({ exercise, iterate, count }) => {
             <h1>{exercise}</h1>
             <div className="iterator">
                 <button onClick={() => iterate}>-</button>
-                <h1>{count}</h1>
+                <h1 className="count">{count}</h1>
                 <button>+</button>
             </div>
         </div>

@@ -5,21 +5,25 @@
 .counter {
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+    flex-direction: column;
 }
 
 .iterator {
     align-items: center;
     justify-content: space-between;
-    width: 40%;
+    width: 50%;
 }
 
-.iterator h1 {
+.iterator .count {
+    font-size: 3rem;
+    margin: 15px 0;
 }
 
 .iterator button {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border-radius: 60%;
     border: none;
     font-size: 2rem;
 }
