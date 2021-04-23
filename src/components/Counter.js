@@ -6,9 +6,9 @@ const Counter = ({ exercise, iterate, count }) => {
         <div className="counter">
             <h1>{exercise}</h1>
             <div className="iterator">
-                <button onClick={() => iterate}>-</button>
+                <button onClick={() => count > 0 ? iterate(count - 1) : null}>-</button>
                 <h1 className="count">{count}</h1>
-                <button>+</button>
+                <button onClick={() => count < 10 ? iterate(count + 1) : null}>+</button>
             </div>
         </div>
     )

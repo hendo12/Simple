@@ -7,7 +7,7 @@
   - Get Ups title and counter
   - Incrememnt/decrement buttons for swings and get ups
   - Start/end button
-  - Save workouts to local storage
+  - Save workouts to local storage?
     
   Features to grow into: 
 
@@ -17,3 +17,4 @@
   - signup/login/database
   - Historical workout data -> list view by most recent date
   - Workout data graph
+  - when workout is ended, check if either simple or sinister marks are met. store as part of data
