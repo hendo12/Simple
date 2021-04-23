@@ -8,23 +8,27 @@
     align-items: center;
     flex-direction: column;
     margin: 5px 0;
+    /* border: 1px solid black; */
 }
 
 .iterator {
     align-items: center;
-    justify-content: space-between;
-    width: 60%;
+    justify-content: space-evenly;
+    width: 70%;
+    position: relative;
+    left: 5px;
 }
 
 .iterator .count {
     font-size: 4rem;
-    margin: 15px 0;
+    margin: 15px -10px 15px 0;
 }
 
 .iterator button {
-    height: 45px;
-    width: 45px;
-    border-radius: 60%;
+    /* height: 60px;
+    width: 60px; */
+    /* border-radius: 60%; */
     border: none;
-    font-size: 2rem;
+    font-size: 4rem;
+    background-color: transparent;
 }
