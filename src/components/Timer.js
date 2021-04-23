@@ -9,7 +9,7 @@ const Timer = ({ time, update, timerActive }) => {
     let hours = Math.floor(time/3600000);
     let minutes = Math.floor((time%3600000)/60000);
     let seconds = ((time%3600000)%60000)/1000;
-    const timeUpdate = 10000;
+    const timeUpdate = 1000;
 
     // hours < 10 ? hours = '0' + hours : null;
     if(hours < 1) {
@@ -33,7 +33,7 @@ const Timer = ({ time, update, timerActive }) => {
     } else if (seconds < 10) {
         seconds = '0' + seconds;
     }
-    
+
     console.log('$seconds: ', seconds);
 
     let formattedTime;
