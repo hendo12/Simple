@@ -10,7 +10,7 @@
 
 * {
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* background-color: #5688C7; 
     background: linear-gradient(#e66465, #9198e5);   */
 }
@@ -31,11 +31,12 @@
     text-shadow: 1px 1px 1px #1f1e1e;
     font-family: Poppins, monospace;
     font-size: 5vw;
+    box-sizing: border-box;
 }
 
 .title {
     text-align: center;
     margin-top: 0;
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: Poppins-Bold;
 }

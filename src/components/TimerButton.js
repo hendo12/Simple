@@ -43,12 +43,12 @@ const TimerButton = ({ type, timerActive, trigger, reset, time, swings, getups }
     if(type === 'start') {
         if(timerActive) {
             // buttonClass = "pause";
-            // buttonText = <FaPause className="pause" />;
-            buttonText = 'PAUSE'
+            buttonText = <FaPause className="pause" />;
+            // buttonText = 'PAUSE'
         } else {
             // buttonClass = "start";
-            // buttonText = <FaPlay className="start" />;
-            buttonText = 'START'
+            buttonText = <FaPlay className="start" />;
+            // buttonText = 'START'
         }
         
         return (
@@ -66,8 +66,8 @@ const TimerButton = ({ type, timerActive, trigger, reset, time, swings, getups }
                     onClick={onStopClick}
                     // className="stop"
                 >
-                    {/* <FaStop className="stop" /> */}
-                    STOP
+                    <FaStop className="stop" />
+                    {/* STOP */}
                     </button>
             </div>
         );

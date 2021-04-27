@@ -19,7 +19,7 @@ const IndexPage = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Simple and Sinister Tracker</h1>
+      {/* <h1 className="title">Simple and Sinister Tracker</h1> */}
       <Timer time={time} update={setTime} timerActive={timerActive} />
       <Counter exercise="Swings" iterate={setSwings} count={swings} />
       <Counter exercise="Get Ups" iterate={setGetups} count={getups} />
