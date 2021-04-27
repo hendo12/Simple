@@ -31,4 +31,6 @@
     border: none;
     font-size: 4rem;
     background-color: transparent;
+    color: white;
+    text-shadow: 1px 1px 1px #1f1e1e;
 }

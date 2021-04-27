@@ -15,3 +15,13 @@ const Counter = ({ exercise, iterate, count }) => {
 }
 
 export default Counter;
+
+// if(count > 0 ) {
+//     iterate(count - 1);
+// }
+
+// if(count < 10) {
+//     iterate(count + 1);
+// }
+
+
