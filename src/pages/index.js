@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Timer from '../components/Timer';
 import Counter from '../components/Counter';
 import TimerButton from '../components/TimerButton';
+import Hamburger from '../components/Hamburger';
 import './index.css';
 
 // markup
@@ -18,8 +19,9 @@ const IndexPage = () => {
   }
 
   return (
-    <div className="container">
+    <div className="container" id="outer-container">
       {/* <h1 className="title">Simple and Sinister Tracker</h1> */}
+      <Hamburger />
       <Timer time={time} update={setTime} timerActive={timerActive} />
       <Counter exercise="Swings" iterate={setSwings} count={swings} />
       <Counter exercise="Get Ups" iterate={setGetups} count={getups} />

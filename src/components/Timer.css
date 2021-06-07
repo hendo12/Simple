@@ -1,9 +1,15 @@
 .timer {
-    height: 80px;
+    /* height: 80px; */
     margin: 15px 0;
 }
 
 .timer h1 {
-    font-size: 15vw;
+    font-size: 20vw;
     margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .timer h1 {
+        font-size: 5rem;
+    }
 }

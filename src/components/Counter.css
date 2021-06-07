@@ -11,6 +11,10 @@
     /* border: 1px solid black; */
 }
 
+.counter h1 {
+    font-size: 8vw;
+}
+
 .iterator {
     align-items: center;
     justify-content: space-evenly;
@@ -33,4 +37,14 @@
     background-color: transparent;
     color: white;
     text-shadow: 1px 1px 1px #1f1e1e;
+}
+
+@media only screen and (min-width: 600px) {
+    .iterator .count {
+        font-size: 8vw;
+    }
+
+    .counter h1 {
+        font-size: 5vw;
+    }
 }
